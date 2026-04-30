@@ -1,9 +1,13 @@
 {
   "languages": [
     {
-      "code": "en",
       "name": "English",
       "file": "translations/en.json",
+      "version": 1
+    },
+    {
+      "name": "Hindi",
+      "file": "translations/hi.json",
       "version": 1
     }
   ]
