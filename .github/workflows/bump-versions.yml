@@ -1,0 +1,40 @@
+name: Bump translation versions
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - "translations/*.json"
+
+jobs:
+  bump:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Bump versions for changed translation packs
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
+          AFTER_SHA: ${{ github.sha }}
+        run: node scripts/bump-versions.mjs
+
+      - name: Commit and push if index.json changed
+        run: |
+          if [[ -n "$(git status --porcelain index.json)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add index.json
+            git commit -m "chore: bump translation versions"
+            git push
+          else
+            echo "No version changes."
+          fi
