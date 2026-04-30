@@ -4,19 +4,19 @@
       "name": "English",
       "code": "en",
       "file": "translations/en.json",
-      "version": 1
+      "version": 2
     },
     {
       "name": "Hindi",
       "code": "hi",
       "file": "translations/hi.json",
-      "version": 1
+      "version": 2
     },
     {
       "name": "Spanish",
       "code": "es",
       "file": "translations/es.json",
-      "version": 1
+      "version": 2
     }
   ]
 }
