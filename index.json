@@ -16,25 +16,25 @@
       "name": "Spanish",
       "code": "es",
       "file": "translations/es.json",
-      "version": 3
+      "version": 2
     },
     {
       "name": "German",
       "code": "de",
       "file": "translations/de.json",
-      "version": 3
+      "version": 2
     },
     {
       "name": "French",
       "code": "fr",
       "file": "translations/fr.json",
-      "version": 3
+      "version": 2
     },
     {
       "name": "Croatian",
       "code": "hr",
       "file": "translations/hr.json",
-      "version": 3
+      "version": 2
     }
   ]
 }
