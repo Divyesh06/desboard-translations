@@ -4,37 +4,37 @@
       "name": "English",
       "code": "en",
       "file": "translations/en.json",
-      "version": 2
+      "version": 3
     },
     {
       "name": "Hindi",
       "code": "hi",
       "file": "translations/hi.json",
-      "version": 2
+      "version": 3
     },
     {
       "name": "Spanish",
       "code": "es",
       "file": "translations/es.json",
-      "version": 2
+      "version": 3
     },
     {
       "name": "German",
       "code": "de",
       "file": "translations/de.json",
-      "version": 2
+      "version": 3
     },
     {
       "name": "French",
       "code": "fr",
       "file": "translations/fr.json",
-      "version": 2
+      "version": 3
     },
     {
       "name": "Croatian",
       "code": "hr",
       "file": "translations/hr.json",
-      "version": 2
+      "version": 3
     }
   ]
 }
