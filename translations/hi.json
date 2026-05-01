@@ -379,5 +379,15 @@
   "Retry": "पुनः प्रयास करें",
   "Installed": "इंस्टॉल हो गया",
   "Available Languages": "उपलब्ध भाषाएँ",
-  "No additional languages available.": "कोई अतिरिक्त भाषा उपलब्ध नहीं है।"
+  "No additional languages available.": "कोई अतिरिक्त भाषा उपलब्ध नहीं है।",
+  "Edit Open Command": "ओपन कमांड संपादित करें",
+  "Set Open Command": "ओपन कमांड सेट करें",
+  "Use {path} as a placeholder for the file path. Example: code {path}": "फ़ाइल पथ के लिए प्लेसहोल्डर के रूप में {path} का उपयोग करें। उदाहरण: code {path}",
+  "Command must contain {path}.": "कमांड में {path} होना चाहिए।",
+  "Templates": "टेम्पलेट",
+  "Reset to Default": "डिफ़ॉल्ट पर रीसेट करें",
+  "Folder Icon": "फ़ोल्डर आइकन",
+  "Fill area (cover)": "क्षेत्र भरें (कवर करें)",
+  "Translations are open source.": "अनुवाद ओपन सोर्स हैं।",
+  "View on GitHub": "GitHub पर देखें"
 }

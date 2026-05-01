@@ -379,5 +379,15 @@
   "Retry": "Reintentar",
   "Installed": "Instalado",
   "Available Languages": "Idiomas Disponibles",
-  "No additional languages available.": "No hay idiomas adicionales disponibles."
+  "No additional languages available.": "No hay idiomas adicionales disponibles.",
+  "Edit Open Command": "Editar comando de apertura",
+  "Set Open Command": "Establecer comando de apertura",
+  "Use {path} as a placeholder for the file path. Example: code {path}": "Use {path} como marcador para la ruta del archivo. Ejemplo: code {path}",
+  "Command must contain {path}.": "El comando debe contener {path}.",
+  "Templates": "Plantillas",
+  "Reset to Default": "Restablecer al predeterminado",
+  "Folder Icon": "Icono de carpeta",
+  "Fill area (cover)": "Rellenar área (cubrir)",
+  "Translations are open source.": "Las traducciones son de código abierto.",
+  "View on GitHub": "Ver en GitHub"
 }
